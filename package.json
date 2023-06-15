@@ -1,0 +1,7 @@
+{
+  "name": "valr-restaking-serverless",
+  "version": "1.0.0",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
