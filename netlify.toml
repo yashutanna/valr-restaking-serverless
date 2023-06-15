@@ -19,3 +19,7 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[template.environment]
+API_KEY = "change me for your VALR API key"
+API_SECRET = "change me for your VALR API secret"
