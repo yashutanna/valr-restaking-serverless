@@ -21,5 +21,5 @@
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
 
 [template.environment]
-API_KEY = "change me for your VALR API key"
-API_SECRET = "change me for your VALR API secret"
+API_KEY = "change me to your VALR API key"
+API_SECRET = "change me to your VALR API secret"
