@@ -75,6 +75,12 @@ const stakeAll = async () => {
     }
 };
 
-// stakeAll();
+if (require.main === module) {
+    // This code will only run if the file is executed directly with Node.js
+    stakeAll().catch(error => {
+        console.error('Error occurred while running stakeAll:', error);
+        process.exit(1); // Exit with a non-zero status code to indicate an error
+    });
+}
 
 module.exports = stakeAll;
