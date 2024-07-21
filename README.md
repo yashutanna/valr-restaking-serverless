@@ -3,7 +3,7 @@
 
 A simple scheduled script for restaking rewards on [VALR.com](https://www.valr.com/invite/VARVXA5D).
 
-When run, this script will use the VALR.com [API](https://docs.valr.com/) to get the account balance for SOL and AVAX, and stake the full available amount.
+When run, this script will use the VALR.com [API](https://docs.valr.com/) to get the account balance for SOL, AVAX and TRX, and stake the full available amount.
 
 ## Why?
 VALR staking rewards are paid out immediately and not automatically restaked. To benefit from compound growth you have to restake your rewards. This script, when deployed to Netlify, automates that.
