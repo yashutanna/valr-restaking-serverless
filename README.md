@@ -1,7 +1,7 @@
 # VALR Restaking
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/nieldw/valr-restaking-serverless)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yashutanna/valr-restaking-serverless)
 
-A simple scheduled script for restaking rewards on [VALR.com](https://www.valr.com/invite/VARVXA5D).
+A simple scheduled script for restaking rewards on [VALR.com](https://www.valr.com/invite/VAGUBUNX).
 
 When run, this script will use the VALR.com [API](https://docs.valr.com/) to get the account balance for SOL, AVAX and TRX, and stake the full available amount.
 
@@ -35,4 +35,4 @@ API_KEY='your API key here' API_SECRET='your API secret here' node stake-all.js
 ## Tip the Developer 🫶
 Like this? Please show your gratitude by sending me a tip with VALR Pay.
 
-VALR Pay me here: https://www.valr.com/payments/send?payId=DQ87EY5LUF94HA8YUBJZ
+VALR Pay me here: https://www.valr.com/payments/send?payId=998JWU2ERC2M9ZP8G7HP
